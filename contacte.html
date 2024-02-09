@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+
+    <form action="/formResult.html" method="get" onsubmit="">
+
+    <h1>Contacte</h1>
+
+    <p>Si us plau, ompliu el segtent formulari si volue posar-vos en contacte amb nosaltres.</p>
+
+	<table>
+
+        <tr>
+            <td><label>Nom:</label></td>
+            <td><input placeholder="el teu nom" name="Nom"></td>
+            <td><label>Cognom:</label></td>
+            <td><input placeholder="el teu cognom" name="Cognom"></td>
+        </tr>
+
+        <tr>
+            <td><label>Edat:</label></td>
+            <td><input placeholder="20" name="Edat"></td>
+            <td><label>Email:</label></td>
+            <td><input placeholder="el teu email" name="Email"></td>
+        </tr>
+
+        <tr>
+            <td colspan="2"><label id="Gènere">Gènere:</label></td>
+            <td colspan="2"><label id="Idioma">Idioma:</label></td>
+        </tr>
+
+        <tr>
+            <td><label>Home</label></td>
+            <td><input type="radio" name="Genere" value="Home"></td>
+            <td><label>Català</label></td>
+            <td><input type="checkbox" name="Idioma" value="Catala"></td>
+        </tr>
+
+        <tr>
+            <td><label>Dona</label></td>
+            <td><input type="radio" name="Genere" value="Dona"></td>
+            <td><label>Castellà</label></td>
+            <td><input type="checkbox" name="Idioma" value="Castella"></td>
+        </tr>
+
+        <tr>
+            <td><label>Altres</label></td>
+            <td><input type="radio" name="Genere" value="Altres"></td>
+            <td><label>Anglès</label></td>
+            <td><input type="checkbox" name="Idioma" value="Angles"></td>
+        </tr>
+
+        <tr>
+            <td><label>Tipus de contacte:</label></td>
+            <td colspan="3"> <select name="Tipus de contacte">
+                <option value="Altres">Altres</option>
+                <option value="reclamacio">reclamació</option>
+                <option value="suggeriment">suggeriment</option>
+              </select></td>
+        </tr>
+
+        <tr>
+            <td><label>Comentaris:</label></td>
+            <td colspan="3"><textarea name="Comentaris" placeholder="Els seus comentaris aqui. . ." id=":" cols="55" rows="10"></textarea></td>
+        </tr>
+
+        <tr>
+            <td colspan="2"><button type="reset">Netejar</button></td>  <!-- <input type="reset" value="Netejar"> --> 
+            <td colspan="2"><button type="submit">Enviar</button></td>  <!-- <input type="submit" value="Enviar"> -->
+        </tr>
+
+	</table>
+
+    <ul>
+        <li> <a href="index.html">Home</a> </li>
+        <li> <a href="contacte.html">Contacte</a> </li>
+    </ul>
+
+    </form>
+
+</body>
+</html>

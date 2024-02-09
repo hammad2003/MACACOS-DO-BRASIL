@@ -1,0 +1,111 @@
+body {
+    background-image: url(FOTOS/2.jpg), url(FOTOS/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#All-in {
+    position: relative;
+    text-align: center;
+}
+
+.titulos {
+    text-align: left;
+    margin-left: 6em;
+    color: green;
+}
+
+.titulos h1{
+    position: absolute;
+}
+
+.titulos h2 {
+    text-align: right;
+    background-color: white;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-right: 4em;
+    padding: 1em;
+    color: green;
+}
+
+#imagen-uno {
+    text-align: center;
+    padding-top: 5.5em;
+}
+
+.text-uno-dos {
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-top: 2em;
+    margin-bottom: 3em;
+    margin-right: 6em;
+    margin-left: 6em;
+    padding: 1em;
+    color: white;
+}
+
+#text-uno {
+    text-align: justify;
+}
+
+#text-dos {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#border-image-video {
+    text-align: center;
+    padding: 2em;
+    margin-top: 2em;
+    margin-bottom: 3em;
+    margin-right: 6em;
+    margin-left: 6em;
+    border-color: yellow;
+    border-width: 9px;
+    border-style: inset;
+    height: 25em;
+    width: auto;
+}
+
+#imagen-dos-video {
+    margin: 0 1em;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+#imagen-dos-video img {
+    height: 25em;
+    width: auto;
+}
+
+#imagen-dos-video iframe {
+    height: 25em;
+    width: 45em;
+}
+
+#links {
+    text-align: left;
+    background-color: white;
+    margin-top: 2em;
+    margin-bottom: 3em;
+    margin-right: 6em;
+    margin-left: 6em;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-top: 0.75em;
+    padding-bottom: 3.75em;
+}
+
+#link-uno {
+    float: left;
+}
+
+#link-dos {
+    float: right;
+    clear: both;
+    margin-right: 1em;
+}
+
+#links li {
+    list-style: circle outside;
+}
